@@ -1,0 +1,4 @@
+digraph "summary" {
+  "mods"                                             -> "java.base (java.base)";
+  "mods"                                             -> "java.net.http (java.net.http)";
+}

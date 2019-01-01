@@ -1,0 +1,2 @@
+JAVA_VERSION="11.0.1"
+MODULES="java.base br.com.casadocodigo.domain java.net.http br.com.casadocodigo.http br.com.casadocodigo.nf br.com.casadocodigo br.com.casadocodigo.logging"

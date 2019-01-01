@@ -1,0 +1,33 @@
+digraph "mods" {
+    // Path: mods
+   "br.com.casadocodigo"                              -> "br.com.casadocodigo.data (mods)";
+   "br.com.casadocodigo"                              -> "br.com.casadocodigo.model (mods)";
+   "br.com.casadocodigo"                              -> "br.com.casadocodigo.nf.service (mods)";
+   "br.com.casadocodigo"                              -> "java.io (java.base)";
+   "br.com.casadocodigo"                              -> "java.lang (java.base)";
+   "br.com.casadocodigo"                              -> "java.lang.invoke (java.base)";
+   "br.com.casadocodigo"                              -> "java.util (java.base)";
+   "br.com.casadocodigo"                              -> "java.util.function (java.base)";
+   "br.com.casadocodigo"                              -> "java.util.stream (java.base)";
+   "br.com.casadocodigo.data"                         -> "br.com.casadocodigo.model (mods)";
+   "br.com.casadocodigo.data"                         -> "java.lang (java.base)";
+   "br.com.casadocodigo.data"                         -> "java.lang.invoke (java.base)";
+   "br.com.casadocodigo.data"                         -> "java.net (java.base)";
+   "br.com.casadocodigo.data"                         -> "java.net.http (java.net.http)";
+   "br.com.casadocodigo.data"                         -> "java.util (java.base)";
+   "br.com.casadocodigo.data"                         -> "java.util.function (java.base)";
+   "br.com.casadocodigo.data"                         -> "java.util.stream (java.base)";
+   "br.com.casadocodigo.model"                        -> "java.lang (java.base)";
+   "br.com.casadocodigo.model"                        -> "java.lang.invoke (java.base)";
+   "br.com.casadocodigo.model"                        -> "java.util (java.base)";
+   "br.com.casadocodigo.nf.internal"                  -> "br.com.casadocodigo.nf.model (mods)";
+   "br.com.casadocodigo.nf.internal"                  -> "java.io (java.base)";
+   "br.com.casadocodigo.nf.internal"                  -> "java.lang (java.base)";
+   "br.com.casadocodigo.nf.internal"                  -> "java.util.concurrent (java.base)";
+   "br.com.casadocodigo.nf.model"                     -> "java.lang (java.base)";
+   "br.com.casadocodigo.nf.service"                   -> "br.com.casadocodigo.model (mods)";
+   "br.com.casadocodigo.nf.service"                   -> "br.com.casadocodigo.nf.internal (mods)";
+   "br.com.casadocodigo.nf.service"                   -> "br.com.casadocodigo.nf.model (mods)";
+   "br.com.casadocodigo.nf.service"                   -> "java.lang (java.base)";
+   "br.com.casadocodigo.nf.service"                   -> "java.util.concurrent (java.base)";
+}
